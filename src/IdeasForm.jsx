@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function IdeasForm (props) {
 
-    let [input, setInput] = useState('')
+    const [input, setInput] = useState('')
 
     function handleSubmit(e) {
         e.preventDefault()
